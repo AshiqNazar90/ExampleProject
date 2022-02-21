@@ -23,5 +23,6 @@ namespace SampleWebpage.Controllers
             return View(result);
         }
 
+    
     }
 }
