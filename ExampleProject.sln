@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleWebpage", "SampleWebpage\SampleWebpage.csproj", "{959B4353-5502-4EB8-ADCE-DEF45DF4210E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{A2ED1BB2-0A5E-4ECF-B4EB-C9E32B457AE0}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleWebApi", "..\Example\SampleWebApi\SampleWebApi.csproj", "{54D51602-D094-4C33-9FAC-98512DE51252}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{AF88F20D-4A2E-4E64-A1D8-D837C35EE5D2}"
