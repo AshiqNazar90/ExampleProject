@@ -28,7 +28,7 @@ namespace SampleWebpage.Controllers
         {
             try
             {
-                var result = CollectServices.Add(collect);
+                var result = CollectServices.AddAdmin(collect);
                 return View(collect);
 
             }

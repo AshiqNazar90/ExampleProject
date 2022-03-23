@@ -14,9 +14,16 @@ namespace SampleWebpage.Services
         }
         public Collect Add(Collect collect)
         {
-            //dbcontext.Add(collect);
             dbcontext.Add(collect);
-            //dbcontext.SaveChanges();
+            dbcontext.SaveChanges();
+
+            return collect;
+        }
+
+        public Collect AddAdmin(Collect collect)
+        {
+            
+            dbcontext.Add(collect);
             dbcontext.SaveChangesAsync();
             return collect;
         }
